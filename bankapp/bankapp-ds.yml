@@ -1,6 +1,4 @@
-
 ---
-# Java Application Deployment
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -29,7 +27,6 @@ spec:
         - name: SPRING_DATASOURCE_PASSWORD
           value: Test@123
 ---
-# Bank Application Service
 apiVersion: v1
 kind: Service
 metadata:
